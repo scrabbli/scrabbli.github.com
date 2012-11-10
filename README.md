@@ -1,3 +1,1 @@
-website
-=======
-http://scrabbli.github.com
+# [website](http://scrabbli.github.com)
