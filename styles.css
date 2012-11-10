@@ -1,0 +1,8 @@
+body {
+	padding: 20px;
+}
+
+#main-column {
+	max-width: 800px !important;
+	margin: 0px auto;
+}
