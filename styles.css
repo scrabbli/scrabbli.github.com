@@ -11,3 +11,7 @@ body {
 	max-width: 860px !important;
 	padding: 0px 20px;
 }
+
+#sse-seal {
+	text-align: center;
+}

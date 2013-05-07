@@ -8,8 +8,7 @@
 	<link rel="stylesheet" href="components/bootstrap.css/css/bootswatch-spacelab.min.css">
 	<link rel="stylesheet" href="styles.css">
 	<!-- icons -->
-	<link rel="icon" href="favicon.ico">
-	<link rel="apple-touch-icon" href="mobile_icon.png">
+	<!--<link rel="icon" href="favicon.ico">-->
 </head>
 
 <body>
@@ -34,21 +33,27 @@
 
 	<!-- page content -->
 	<div id="content">
+		<h2><a href="https://github.com/scrabbli/scrabbli#getting-started" target="_blank">Getting Started</a></h2>
+
 		<h2>Schedule</h2>
 		<ul>
 			<li>Preliminaries: TBD</li>
 			<li>Tournament: TBD
 				<ul>
-					<li>There will be awards, must be able to run at least 5 turns to qualify...</li>
-					<li>Ex. ("Derpiest Language")</li>
+					<li>There will be awards.</li>
+					<li>You must be able to run at least 5 turns to qualify.</li>
+					<li>Example: "Derpiest Language"</li>
 				</ul>
 			</li>
 		</ul>
 
 		<h2>Problem</h2>
-		Make a scrabble player, that gives a word and its location based on the current board, and your hand tiles.
-does not need to do anything but produce a word & its location & its directionn when we declare it is your turn... you do not need to stimulate the game (you should take account of the broad and your hand). we will tell you and you will need to manual update your tiles for other players move. because this is the silly way to do it.
-
+		Make a scrabble player that reads a board and its hand tiles, and then gives
+		back a word and its location. It does not need to do anything but produce a
+		word, its location, and its direction when it is its turn. You do not need
+		to simulate the game, though you should review your board and hand every
+		turn. We will tell you when you need to manually update your tiles for
+		another player's move.
 		<h2>Points</h2>
 		<ul>
 			<li>0  points: blank</li>
@@ -69,8 +74,12 @@ does not need to do anything but produce a word & its location & its directionn 
 		double word score tile.
 
 		<h2>More Modifier Rules</h2>
-		(modifiers are cumulative, letter modifiers first, then word modifiers)
-		if seven tiles have been laid on the board in one turn, after all of the words formed have been scored, 50 bonus points are added.
+		<ul>
+			<li>Modifiers are cumulative.</li>
+			<li>Letter modifiers come first, then word modifiers.</li>
+			<li>If seven tiles have been laid out onto the board in one turn, after
+			all of the words formed have been scored, 50 bonus points are added.</li>
+		</ul>
 
 		<h2><a href="files/dictionary.txt" target="_blank">Dictionary</a></h2>
 	</div>
